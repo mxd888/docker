@@ -1,0 +1,11 @@
+https://www.jianshu.com/p/397929dbc27d
+
+安装
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+
+docker build -t myspring .
+
+制作完成后通过docker images命令查看我们制作的镜像
+
+
+docker run -d -p 8080:8080 myspring
